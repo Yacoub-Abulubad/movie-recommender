@@ -1,5 +1,7 @@
 import React from "react";
-
+// Components
+import Header from "./components/Header";
+import Home from "./components/Home";
 // Styles
 import { GlobalStyle } from "./GlobalStyle";
 
@@ -8,7 +10,8 @@ const Star = () => React.createElement("div", null, "This is a little star *");
 const App = () => {
   return (
     <div className="App">
-      Start here.
+      <Header />
+      <Home />
       <GlobalStyle />
     </div>
   );
